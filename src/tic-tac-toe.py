@@ -1,3 +1,5 @@
+import urllib
+
 #grid creation
 nb = ""
 notused= "notused"

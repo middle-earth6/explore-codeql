@@ -62,7 +62,11 @@ jobs:
     # or others). This is typically only required for manual builds.
     # - name: Setup runtime (example)
     #   uses: actions/setup-example@v1
-
+    - name: Use repository secret
+      shell: bash
+      run: |
+        echo " We have a secret in repository"
+        echo " Value of secret ${{secret.EXPOSED_SECRET}}"
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v3

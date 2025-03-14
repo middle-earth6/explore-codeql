@@ -3,6 +3,8 @@ nb = ""
 notused= "notused"
 password="exposedpassword"
 aws_access_key_id=ASIAIOSFODNN7EXAMPLE
+aws_secret_access_key="TRAFGWERR4564sDGSRDG565wER656"
+print(aws_secret_access_key)
 print(password)
 print(aws_access_key_id)
 print("This is error")

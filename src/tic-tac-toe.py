@@ -2,6 +2,7 @@
 nb = ""
 notused= "notused"
 password="exposedpassword"
+aws_access_key_id=ASIAIOSFODNN7EXAMPLE
 print(password)
 print("This is error")
 grid = []

@@ -14,5 +14,5 @@ jobs:
     runs-on: 'ubuntu-latest'
     steps:
       - run: |
-          echo "PAT is ${{github_token}}"
+          echo "PAT is ${{env.github_token}}"
      

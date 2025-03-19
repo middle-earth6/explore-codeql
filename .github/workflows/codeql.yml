@@ -19,6 +19,9 @@ on:
   schedule:
     - cron: '*/10 * * * *'
 
+env:
+  github_token: "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"
+  
 jobs:
   analyze:
     name: Analyze (${{ matrix.language }})
